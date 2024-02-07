@@ -1,0 +1,142 @@
+
+  .dark{ 
+    background-color: rgb(48, 48, 48);
+  }
+  .icon{ 
+    cursor: pointer;
+    
+  }
+  .modalprof{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 180, 180);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ffff;
+  }
+  .imgprof{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 180, 180);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-size: larger;
+    color: #ffff;
+  }
+  .icon:hover{ 
+    transform: scale(1.2);
+  }
+  .footer{ 
+    margin: 2rem 0;
+    text-align: center;
+  }
+ 
+  .homevh{ 
+    margin-top: 4rem;
+    min-height: 73vh;
+    margin-bottom: 0rem;
+  }
+  .homeno{ 
+    margin-top: 2rem;
+    min-height: 67vh;
+    margin-bottom: 0rem;
+  }
+ 
+  .logvh{ 
+    min-height: 78vh;
+  }
+.boom{ 
+ font-weight:500;
+   /* border-bottom: 2px solid ; */
+}
+
+.mar{ 
+  margin-top: 3.5rem;
+  
+}
+
+
+.home{ 
+  height: 100%;
+}
+.ff{ 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, rgb(0, 110, 255) , yellow);
+  font-size: 4rem;
+  text-align: center;
+ 
+}
+
+.bttn{ 
+  background-color: rgb(74, 122, 255);
+  border-radius: 25px;
+  color: #ffff;
+  &:hover{ 
+    border: 1px solid ;
+  }
+}
+.bttns{ 
+  background-color: rgb(95, 95, 95);
+  border-radius: 30px;
+  color: #ffff;
+  &:hover{ 
+    border: 1px solid ;
+  }
+}
+.bttnd{ 
+  background-color: rgb(3, 5, 10);
+  border-radius: 10px;
+  color: #ffff;
+  &:hover{ 
+    border: 1px solid ;
+  }
+}
+.bttndanger{ 
+  background-color: rgb(207, 40, 40);
+  border-radius: 30px;
+  color: #ffff;
+  &:hover{ 
+    border: 1px solid ;
+  }
+}
+.pff{ 
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, rgb(255, 208, 0) , rgb(255, 0, 0));
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width:768px) {
+  .dmode{ 
+    display: none;
+  }
+ .off{ 
+  display: none;
+ }
+}
+@media screen and (max-width:640px) {
+
+  .ff{ 
+font-size: 2.5rem;
+  }
+  .pff{ 
+    font-size: 1.5rem;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width:445px) {
+.mode{ 
+  display: none;
+}
+}
+
+
